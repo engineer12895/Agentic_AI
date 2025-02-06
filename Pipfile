@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "*"
+pydantic = "*"
+uvicorn = "*"
+streamlit = "*"
+langchain-groq = "*"
+langchain-community = "*"
+langchain-openai = "*"
+langgraph = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.13"
